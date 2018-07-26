@@ -1,0 +1,10 @@
+C:\Users\Sinan\source\repos\Event_Manager\Event_Manager\bin\Debug\Event_Manager.exe.config
+C:\Users\Sinan\source\repos\Event_Manager\Event_Manager\bin\Debug\Event_Manager.exe
+C:\Users\Sinan\source\repos\Event_Manager\Event_Manager\bin\Debug\Event_Manager.pdb
+C:\Users\Sinan\source\repos\Event_Manager\Event_Manager\obj\Debug\Event_Manager.csprojResolveAssemblyReference.cache
+C:\Users\Sinan\source\repos\Event_Manager\Event_Manager\obj\Debug\Event_Manager.eventManagerForm.resources
+C:\Users\Sinan\source\repos\Event_Manager\Event_Manager\obj\Debug\Event_Manager.Properties.Resources.resources
+C:\Users\Sinan\source\repos\Event_Manager\Event_Manager\obj\Debug\Event_Manager.csproj.GenerateResource.Cache
+C:\Users\Sinan\source\repos\Event_Manager\Event_Manager\obj\Debug\Event_Manager.csproj.CoreCompileInputs.cache
+C:\Users\Sinan\source\repos\Event_Manager\Event_Manager\obj\Debug\Event_Manager.exe
+C:\Users\Sinan\source\repos\Event_Manager\Event_Manager\obj\Debug\Event_Manager.pdb
