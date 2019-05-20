@@ -1,0 +1,13 @@
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\bin\Debug\DBTest1.exe
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\bin\Debug\DBTest1.pdb
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\bin\Debug\Iesi.Collections.dll
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\bin\Debug\NHibernate.dll
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\bin\Debug\Iesi.Collections.xml
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\bin\Debug\NHibernate.xml
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\obj\x86\Debug\DBTest1.csprojResolveAssemblyReference.cache
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\obj\x86\Debug\DBTest1.Form1.resources
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\obj\x86\Debug\DBTest1.Properties.Resources.resources
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\obj\x86\Debug\DBTest1.csproj.GenerateResource.Cache
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\obj\x86\Debug\DBTest1.exe
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\obj\x86\Debug\DBTest1.pdb
+C:\Users\Sinan\Desktop\TestApp\DBTest1\DBTest1\bin\Debug\packages.config

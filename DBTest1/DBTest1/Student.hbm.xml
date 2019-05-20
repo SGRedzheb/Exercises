@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="DBTest1"
+                   namespace="DBTest1">
+  <class name="Student" table="Student">
+    <id name="Id">
+      <generator class="native" />
+    </id>
+    <property name="Names" />
+    <property name="Age" />
+  </class>
+</hibernate-mapping>
