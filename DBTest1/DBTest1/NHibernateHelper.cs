@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NHibernate;
+﻿using NHibernate;
 using NHibernate.Cfg;
 using NHibernate.Dialect;
 using NHibernate.Driver;
@@ -23,16 +19,20 @@ namespace DBTest1
                     _sessionFactory = new Configuration()
                 .DataBaseIntegration(x =>
                 {
-                    x.ConnectionString = "Server=ROBOX;Database=StudentsTestApp;Integrated Security=true;";
-                    x.Dialect<MsSql2012Dialect>();
-                    x.Driver<SqlClientDriver>();
+                    //x.ConnectionString = "Server=ROBOX;Database=StudentsTestApp;Integrated Security=true;";
+                    x.ConnectionString = "DSN=TESTDB2;UID=db2admin;PWD=12345;";
+                    //x.ConnectionString = "Server=localhost:50000;Database=TESTDB2;UID=db2admin;PWD=12345;";
+                    x.Dialect<DB2Dialect>();
+                    x.Driver<OdbcDriver>();
+                    
                 }).AddAssembly(Assembly.GetExecutingAssembly())
                 .BuildSessionFactory();
+                    
 
-                    //var configuration = new Configuration();
-                    //configuration.Configure();
-                    //configuration.AddAssembly(typeof(Student).Assembly);
-                    //_sessionFactory = configuration.BuildSessionFactory();
+                   // var cfg = new Configuration();
+                   //cfg.Configure();
+                   // cfg.AddAssembly(typeof(Student).Assembly);
+                   // _sessionFactory = cfg.BuildSessionFactory();
                 }
                 return _sessionFactory;
             }
