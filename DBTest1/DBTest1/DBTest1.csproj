@@ -104,6 +104,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Student.hbm.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

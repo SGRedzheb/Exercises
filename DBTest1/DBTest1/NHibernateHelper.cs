@@ -16,23 +16,20 @@ namespace DBTest1
             {
                 if (_sessionFactory == null)
                 {
-                    _sessionFactory = new Configuration()
-                .DataBaseIntegration(x =>
-                {
-                    //x.ConnectionString = "Server=ROBOX;Database=StudentsTestApp;Integrated Security=true;";
-                    x.ConnectionString = "DSN=TESTDB2;UID=db2admin;PWD=12345;";
-                    //x.ConnectionString = "Server=localhost:50000;Database=TESTDB2;UID=db2admin;PWD=12345;";
-                    x.Dialect<DB2Dialect>();
-                    x.Driver<OdbcDriver>();
-                    
-                }).AddAssembly(Assembly.GetExecutingAssembly())
-                .BuildSessionFactory();
-                    
+                    var cfg = new Configuration().Configure();
+                    _sessionFactory = cfg.BuildSessionFactory();
 
-                   // var cfg = new Configuration();
-                   //cfg.Configure();
-                   // cfg.AddAssembly(typeof(Student).Assembly);
-                   // _sessionFactory = cfg.BuildSessionFactory();
+                //    _sessionFactory = new Configuration()
+                //.DataBaseIntegration(x =>
+                //{
+                //    //x.ConnectionString = "Server=ROBOX;Database=StudentsTestApp;Integrated Security=true;";
+                //    x.ConnectionString = "DSN=TESTDB2;UID=db2admin;PWD=12345;";
+                //    //x.ConnectionString = "Server=localhost:50000;Database=TESTDB2;UID=db2admin;PWD=12345;";
+                //    x.Dialect<DB2Dialect>();
+                //    x.Driver<OdbcDriver>();
+                    
+                //}).AddAssembly(Assembly.GetExecutingAssembly())
+                //.BuildSessionFactory();
                 }
                 return _sessionFactory;
             }
